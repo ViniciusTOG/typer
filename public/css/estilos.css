@@ -1,0 +1,51 @@
+.campo-digitacao {
+	font-size: 20px;
+	height: 130px;
+	border: solid 3px black;
+	outline: none;
+}
+
+.frase {
+	font-size: 20px;
+}
+
+.campo-desativado {
+	background-color: lightgray; 
+}
+
+.icones {
+	vertical-align: middle; 
+}
+
+.campo-verde {
+	border: solid 3px green; 
+}
+
+.campo-vermelho {
+	border: solid 3px red; 
+}
+
+.placar {
+	display: none;
+}
+
+body {
+	overflow: scroll;
+}
+
+#erro {
+	color: red;
+	display: none;
+}
+
+#spinner {
+	display: none;
+}
+
+#frase-id {
+	width: 30px;
+}
+
+#botao-sync {
+	float: right;
+}
